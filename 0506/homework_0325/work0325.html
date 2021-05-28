@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>作業</title>
+  </head>
+  <body>
+    個人網站
+    <form>
+      <form name="test" action="http://httpbin.org/get" method="get">
+        E-mail：<input name="email" type="email" /><br />
+        <a href=work0311.html>個人網站</a>：<input name="website" type="url" /><br />
+        連絡電話：<input name="tel" type="tel" /><br />
+        行動電話帳單：<input name="bill" type="number" /> <br />
+        對本站的意見：<br />
+        <textarea name="comment" rows="5" cols="25"></textarea><br />
+        日期時間<input name="setdatetime" type="datetime-local" />
+        <hr />
+        喜歡的顏射:<input name=“mycolor" type="color"><br />
+        對本站的評分： 不喜歡<input
+          name="score"
+          type="range"
+          min="1"
+          max="5"
+        />喜歡<br />
+        請問您想參加的行程：<select name="tour">
+          <optgroup label="國內">
+            <option value="1">宜蘭羅東之旅</option>
+            <option value="2">林森北路之旅</option>
+          </optgroup>
+
+          <optgroup label="國外">
+            <option value="3">伊朗聖戰士選拔</option>
+            <option value="4">美國歧視體驗</option>
+          </optgroup>
+        </select>
+        <hr />
+        請問你喜歡的食物：<br />
+        <select name="brand" size="5" multiple>
+          <option value="1">熱狗</option>
+          <option value="2">火鍋</option>
+          <option value="3">拉麵</option>
+          <option value="4">壽司</option>
+          <option value="5">濃湯</option>
+          <option value="6">炸機</option>
+          <option value="7">披薩</option></select
+        ><br /><br />
+      <input type="reset" value="清除重填" />
+      <input type="submit" value="填完送出" />
+    </form>
+  </body>
+</html>

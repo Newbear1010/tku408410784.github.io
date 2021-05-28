@@ -1,0 +1,41 @@
+/* body {
+  margin-left: 500px;
+  background-image: url(president.gif);
+  background-repeat: repeat-y;
+  background-color: pink;
+} */
+body {
+  margin-left: 500px;
+  background-image: url(president2.gif), url(president.gif), url(pain.jpg),
+    url(gain.jpg),
+    linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+
+  background-repeat: repeat-y, repeat-y, repeat-x, repeat-x, no-repeat;
+  background-size: auto, auto, 200px, 200px, contain;
+
+  background-position: left top, right top, left top, left bottom;
+}
+table {
+  background: linear-gradient(
+    to left top,
+    rgb(237, 145, 245),
+    rgba(74, 255, 2, 0)
+  );
+  border-width: 5px;
+}
+td {
+  border-color: rgb(252, 0, 0) rgb(0, 17, 255) rgb(33, 252, 4);
+  border-style: solid dotted;
+}
+.item1 {
+  border-left: solid #2244ff 10px;
+}
+.item2 {
+  border-left: solid #3366ff 1.5em;
+}
+.item3 {
+  border-left: solid #4488ff 2em;
+}
+.item4 {
+  border-left: solid #55aaff 2.5em;
+}
